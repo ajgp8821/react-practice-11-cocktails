@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Spinner from './Spinner';
 import Error from './Error';
 import { CategoriesContex } from '../context/CategoriesContex';
@@ -92,8 +92,8 @@ const Form = () => {
     );
 }
 
-Form.propTypes = {
-    // test: PropTypes.string.isRequired,
-}
+// Form.propTypes = {
+//     // test: PropTypes.string.isRequired,
+// }
  
 export default Form;
